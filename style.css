@@ -1,0 +1,22 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 128px;
+
+    /* IE, only works on <img> tags */
+    -ms-interpolation-mode: nearest-neighbor;
+    /* Firefox */
+    image-rendering: crisp-edges;
+    /* Chromium + Safari */
+    image-rendering: pixelated;
+
+    transform: scale(3.0, 3.0);
+    -ms-transform: scale(3.0, 3.0);
+    -webkit-transform: scale(3.0, 3.0);
+    -moz-transform: scale(3.0, 3.0);
+    -o-transform: scale(3.0, 3.0);
+}
+body {
+  background-color: #2f2f2f;
+}
